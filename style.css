@@ -1,0 +1,374 @@
+body{
+  margin:0px;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  height:60px;
+  align-items:center;
+  position:fixed;
+  width:100%;
+  padding:8px;
+  justify-content:space-between;
+  background-color:black;
+  opacity:65%;
+}
+
+.content{
+  display:flex;
+  height:100vh;
+}
+
+
+.headerblock{
+  font-weight:bold;
+  font-size:25px;
+  color:white;
+  font-family:Trebuchet MS;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-left:70px;
+}
+.menu{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-right:20px;
+}
+
+
+.labels{
+  margin:3px;
+  font-size:15px;
+  color:white;
+  font-family:Trebuchet MS;
+  padding:20px;
+  border-radius:30px;
+  background-color:black;
+  border:0px;
+  cursor:pointer;
+}
+.labels:hover{
+  background-color:#212121;
+}
+.content{
+  height:100%;
+  width:100%;
+  background-color:#f5f5f5;
+  overflow-y:scroll;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.INFO{
+  margin-top:190px;
+  width:800px;
+  height:500px;;
+  background-color:white;
+  margin-bottom:30px;
+  display:flex;
+  flex-direction:column;
+}
+.amblock1{
+  background-color:#eeeeee;
+  width:800px;
+  flex:5;
+  display:flex;
+}
+.amblock1left{
+  flex:1;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0)),
+  url('https://scontent.ftpe8-4.fna.fbcdn.net/v/t39.30808-6/266299290_4679472838804324_5798595875595405329_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4EHjc75kZ5MAX8p3oS3&_nc_ht=scontent.ftpe8-4.fna&oh=00_AT9_ZP1GvOR1egKltGNXxZPq1JT-M4rc7PhxePNEd1-bWA&oe=62A6C3BB');
+  background-size: cover;
+  background-position: center;
+}
+.amblock1right{
+  flex:1;
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+}
+.myInfo1{
+  flex:3;
+  font-size:28px;
+  font-family:sans-serif;
+  font-weight:800;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  color:#212161;
+}
+.myInfo2{
+  flex:7;
+}
+.Infotitle{
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:18px;
+  padding-left:58px;
+  margin-top:40px;
+  color:#212121;
+  
+}
+.InfoAns{
+  padding-left:60px; 
+  font-family:sans-serif;
+  margin-top:5px;
+}
+.amblock2{
+  flex:1;
+  background-color:#616161;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+}
+.fa-facebook-square{
+  color:white;
+  margin:8px;
+}
+.fa-twitter{
+  color:white;
+  margin:8px;
+  cursor:pointer;
+}
+.fa-instagram{
+  color:white;
+  margin:8px;
+  cursor:pointer;
+}
+.fa-linkedin{
+  color:white;
+  margin:8px;
+  cursor:pointer;
+}
+
+.aboutme{
+  width:100%;
+  height:200px;;
+  background-color:white;
+  margin-bottom:30px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.aboutmetitle{
+  text-align:center;
+  font-size:32px;
+  font-family:Georgia, serif;
+  margin-top:5px;
+}
+.aboutmecontent{
+  height:100px;
+  width:600px;
+  margin-top:20px;
+  text-align:center;
+  font-size:20px;
+  font-family:sans-serif;
+}
+
+.education{
+  width:30%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top :100px;
+}
+.educationtitle{
+  
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  
+}
+.edupic{
+  height:100px;
+  width:100px;
+  background-image:url('https://i02piccdn.sogoucdn.com/8df56b4dd0f13909');
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  margin-right:5px;
+  border:1px solid black;
+}
+.edutitle{
+  font-size:32px;
+  font-family:Georgia, serif;
+  baclground-color:blue;
+  margin-left:20px;
+}
+.edublock{
+  height:100px;
+  width:450px;
+  padding-top:20px;
+  margin-top:20px;
+}
+.eduyear{
+  font-weight:bold;
+  color:#212161;
+  font-size:21px;
+  font-family:Georgia, serif;
+  text-align:center;
+}
+.eduschool{
+  padding-top:16px;
+  font-family:Georgia, serif;
+  font-size:18px;
+  font-weight:bold;
+  line-height:28px;
+  text-align:center;
+}
+
+.exppic{
+  height:100px;
+  width:100px;
+  background-image:url('https://media.istockphoto.com/photos/life-balance-choices-signpost-with-sunrise-sky-backgrounds-picture-id660654466?k=20&m=660654466&s=612x612&w=0&h=tjXfj9m7WZ5wzA5ontHE7jgbNb-y338SJfWGdSi6v-k=');
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  margin-left:150px;
+}
+.experience{
+  width:30%;
+  align-items:center;
+  flex-direction:column;
+  margin-top :100px;
+}
+.exp{
+  font-family:Georgia, serif;
+  font-size:18px;
+  font-weight:bold;
+  line-height:28px;
+}
+.expblock{
+  height:160px;
+  width:550px;
+  padding-top:20px;
+  margin-top:40px;
+  text-align:center;
+}
+.expyear{
+  font-weight:bold;
+  color:#212161;
+  font-size:21px;
+  font-family:Georgia, serif;
+  margin-bottom:30px;
+}
+.skillspic{
+  height:100px;
+  width:100px;
+  background-image:url('https://st4.depositphotos.com/1005049/20811/v/1600/depositphotos_208116808-stock-illustration-fist-hand-concept-freedom-solidarity.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  margin-right:20px;
+  border:1px solid grey;
+}
+.sktitle{
+  font-size:32px;
+  font-family:Georgia, serif;
+}
+.skills{
+  margin-top:120px;
+  
+}
+.skillsblock{
+  width:100%;
+  margin-top:50px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  
+}
+
+.skillsA{
+  width:350px;
+  height:300px;
+  margin-left:40px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:white;
+}
+.skills_top{
+  flex:2;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin-top:10px;
+}  
+.skills_down{
+  flex:5;
+  
+}
+.skillsA_left{
+  background-image:url('https://pyxis.nymag.com/v1/imgs/264/592/dcddc7b4bf91c55b093ac26a9bf3bebe90-10-smart-lightbulb.rsquare.w700.jpg');
+  height:70px;
+  width:70px;
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;  
+}
+.skills_right{
+  font-size:24px;
+  font-family:Georgia, serif;
+  margin-left:10px;
+}
+.tools{
+  text-decoration:underline;
+  font-size:22px;
+  font-family:Georgia, serif;
+  margin:30px;
+}
+.skillsB_left{
+  background-image:url('https://cdn1.vectorstock.com/i/1000x1000/01/45/mechanism-icon-vector-6200145.jpg');
+  height:70px;
+  width:70px;
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  border:1px solid grey;
+}
+.skillsC_left{
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRX7PbVP7cTww4czZLkeLoGKnkl0_9drpDRQA&usqp=CAU');
+  height:70px;
+  width:70px;
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;  
+}
+
+.footer{
+  margin-top:50px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:100%;
+  background-color:#eeeeee;
+  padding:8px;
+  border-top:1px solid #e0e0e0;
+}
+.contact{
+  text-align:center;
+}
+.contactblock{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.contactpic{
+  height:100px;
+  width:100px;
+  background-image:url('https://www.pinclipart.com/picdir/middle/64-648622_contact-phone-white-transparent-background-clipart.png');
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  margin-right:20px;
+  
+}
+.last{
+  padding-top:60px;
+}
