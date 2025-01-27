@@ -79,7 +79,7 @@ body{
 .amblock1left{
   flex:1;
   background-image: 
-  url('https://media.licdn.com/dms/image/v2/C5603AQFgzlG3p-nhGg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659712385391?e=1743638400&v=beta&t=w2lIYCtqroT05KeSAGA_FN8IbVRUq1d6m2HG2BWe3T0');
+  url('');
   background-size: cover;
   background-position: center;
 }
@@ -333,7 +333,7 @@ body{
   border:1px solid grey;
 }
 .skillsC_left{
-  background-image:url('https://vmaker.tw/wp-content/uploads/2023/03/AI%E4%BD%9C%E7%95%AB2.jpg');
+  background-image:url('');
   height:70px;
   width:70px;
   background-size: cover;
