@@ -78,8 +78,8 @@ body{
 }
 .amblock1left{
   flex:1;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0)),
-  url('https://scontent.ftpe8-4.fna.fbcdn.net/v/t39.30808-6/266299290_4679472838804324_5798595875595405329_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4EHjc75kZ5MAX8p3oS3&_nc_ht=scontent.ftpe8-4.fna&oh=00_AT9_ZP1GvOR1egKltGNXxZPq1JT-M4rc7PhxePNEd1-bWA&oe=62A6C3BB');
+  background-image: 
+  url('https://media.licdn.com/dms/image/v2/C5603AQFgzlG3p-nhGg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1659712385391?e=1743638400&v=beta&t=w2lIYCtqroT05KeSAGA_FN8IbVRUq1d6m2HG2BWe3T0');
   background-size: cover;
   background-position: center;
 }
@@ -333,7 +333,7 @@ body{
   border:1px solid grey;
 }
 .skillsC_left{
-  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRX7PbVP7cTww4czZLkeLoGKnkl0_9drpDRQA&usqp=CAU');
+  background-image:url('https://vmaker.tw/wp-content/uploads/2023/03/AI%E4%BD%9C%E7%95%AB2.jpg');
   height:70px;
   width:70px;
   background-size: cover;
