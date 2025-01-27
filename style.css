@@ -78,8 +78,8 @@ body{
 }
 .amblock1left{
   flex:1;
-  background-image: 
-  url('');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0)),
+  url('https://scontent.ftpe8-4.fna.fbcdn.net/v/t39.30808-6/266299290_4679472838804324_5798595875595405329_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4EHjc75kZ5MAX8p3oS3&_nc_ht=scontent.ftpe8-4.fna&oh=00_AT9_ZP1GvOR1egKltGNXxZPq1JT-M4rc7PhxePNEd1-bWA&oe=62A6C3BB');
   background-size: cover;
   background-position: center;
 }
@@ -333,7 +333,7 @@ body{
   border:1px solid grey;
 }
 .skillsC_left{
-  background-image:url('');
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRX7PbVP7cTww4czZLkeLoGKnkl0_9drpDRQA&usqp=CAU');
   height:70px;
   width:70px;
   background-size: cover;
